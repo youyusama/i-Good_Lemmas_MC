@@ -67,7 +67,4 @@ bld/
 .vs/
 .vscode/
 
-aiger/
-minisat/
-
 IC3
