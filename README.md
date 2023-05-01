@@ -14,7 +14,9 @@ IC3ref$ make
 
 To Run:
 
-`$ IC3 [-br][-rs] <AIGER_file.aig> <OUTPUT_PATH>`
+```
+$ IC3 [-br][-rs] <AIGER_file.aig> <OUTPUT_PATH>
+```
 
 - -br: enable branching heuristic
 - -rs: enable refer-skipping heuristic
@@ -24,11 +26,16 @@ To Run:
 
 To build:
 
-`simple_CAR/$ make`
+```
+simple_CAR/$ make
+```
 
 To Run:
 
-`$ simpleCAR -f [-br 1][-rs] <AIGER_file.aig> <OUTPUT_PATH>`
-
+```
+$ simpleCAR -f|-b [-br 1][-rs] <AIGER_file.aig> <OUTPUT_PATH>
+```
+- -f: forward searching
+- -b: backward searching
 - -br 1: enable branching heuristic
 - -rs: enable refer-skipping heuristic
